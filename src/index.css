@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cm-line {
+  text-align: start;
+  color: white;
+}
+
+.cm-editor {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.ͼ2 .cm-content {
+  padding: 0;
+}
+
+.ͼ1 .cm-gutters {
+  background-color: transparent;
+}
+
+.ͼ1 .cm-foldPlaceholder {
+  background-color: #1D1E22;
+}

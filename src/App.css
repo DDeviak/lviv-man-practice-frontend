@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #131417;
 }
 
 .App-logo {
@@ -35,4 +39,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.cm-gutters {
+  border-bottom-left-radius: 10px;
+}
+
+h1 {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+iframe {
+  background-color: white;
 }
